@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Runtime data
+data/trades.csv
+data/signals.csv
+data/positions.json
+data/settings.json
+bot_state_async.json
+bot_state.db
+dashboard_state.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Agent/Skills
+.agent/
